@@ -11,9 +11,9 @@ df = pd.DataFrame(data)
 new_row = {'Name':'GF1','Age':20,'City':'City1'}
 df.loc[len(df.index)] = new_row
 
-## Adding new row to df for V3
-# new_row2= {'Name':'V3','Age':20,'City':'City1'}
-# df.loc[len(df.index)] = new_row2
+# Adding new row to df for V3
+new_row2= {'Name':'GF2','Age':30,'City':'City2'}
+df.loc[len(df.index)] = new_row2
 
 data_dir = "data"
 os.makedirs(data_dir,exist_ok=True)
